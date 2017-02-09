@@ -66,7 +66,7 @@ function initAliens() {
     }
 
     if (fiveFewer) {
-        for (i = 0; i < aliens[2][i]; i += 2) {
+        for (i = 0; i < aliens[2].length; i += 2) {
             aliens[2][i].alive = false;
             enemyNum--;
         }
