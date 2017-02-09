@@ -19,6 +19,13 @@ var speed = 3;
 function start() {
     ctx.drawImage(logoImage, (canvas.width/2) - (229/2), 100);
     ctx.drawImage(startImage, (canvas.width/2) - (148/2), 500);
+    ctx.fillStyle = "white";
+    ctx.font = "30px Arial";
+    ctx.textAlign = "center";
+    ctx.fillText("'A' to move left", canvas.width/2, 350);
+    ctx.fillText("'D' to move right ", canvas.width/2, 380);
+    ctx.fillText("'W' to shoot", canvas.width/2, 410);
+    ctx.fillStyle = "black";
 
     canvas.addEventListener('click', letsDoThis, true);
 }
