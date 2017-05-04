@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 1073741824,
+"dataUrl": "Build3TheBigOne.data.unityweb",
+"asmCodeUrl": "Build3TheBigOne.asm.code.unityweb",
+"asmMemoryUrl": "Build3TheBigOne.asm.memory.unityweb",
+"asmFrameworkUrl": "Build3TheBigOne.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}
